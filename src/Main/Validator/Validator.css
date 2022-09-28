@@ -1,0 +1,64 @@
+.Validator {
+  display: flex;
+  flex-direction: column;
+}
+.Verification {
+  display: flex;
+  flex-direction: column;
+}
+.valheading {
+  align-self: start;
+  background-color: gainsboro;
+  display: block;
+  padding: 10px;
+  width: 93%;
+}
+.valbtn,
+.veribtn {
+  width: 100%;
+  margin: 5px 5px;
+  padding: 10px 5px;
+  color: white;
+  border: transparent;
+  background-color: blue;
+  border-radius: 15px;
+}
+.valbtn:hover,
+.veribtn:hover {
+  background-color: lightseagreen;
+  cursor: pointer;
+}
+.skipbtn {
+  width: 100%;
+  margin: 5px 5px;
+  padding: 0px 5px;
+  color: blue;
+  border: transparent;
+  background-color: gainsboro;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skipbtn:hover {
+  cursor: pointer;
+  background-color: rgb(157, 157, 157);
+}
+.skipicon {
+  margin: 5px 15px 0px 15px;
+
+  font-size: 1.5rem;
+}
+.verilbl {
+  text-align: start;
+}
+.veriinput {
+  border: 1px solid gray;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+.iconimage {
+  font-size: 4rem;
+  color: rgb(76, 134, 234);
+}

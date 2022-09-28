@@ -1,0 +1,25 @@
+.Main {
+  margin: 10px auto;
+  width: 50vw;
+  min-width: 300px;
+  max-width: 500px;
+  height: 70vh;
+  display: flex;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: azure;
+  flex-direction: column;
+}
+.Main .btn {
+  width: 100%;
+  margin: 10px;
+  padding: 15px;
+  color: white;
+  border: transparent;
+  background-color: blue;
+  border-radius: 15px;
+}
+.Main .btn:hover {
+  cursor: pointer;
+  background-color: lightseagreen;
+}
